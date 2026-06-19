@@ -144,7 +144,8 @@ h3 {
 
 .publication-list {
   margin: 0;
-  padding-left: 22px;
+  padding: 0;
+  list-style: none;
 }
 
 .publication-list li + li {
@@ -166,6 +167,11 @@ h3 {
 
 .publication-venue {
   font-style: italic;
+}
+
+.ccf-rank {
+  font-style: normal;
+  font-weight: 700;
 }
 
 @media (max-width: 720px) {
