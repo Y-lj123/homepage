@@ -113,25 +113,9 @@ h1 {
   line-height: 1.1;
 }
 
-.subtitle {
-  margin-bottom: 0;
-  color: #3c4043;
-  font-size: 1.15rem;
-}
-
-.affiliation {
-  margin-bottom: 25px;
-  color: var(--muted);
-}
-
 .contact-row {
-  display: flex;
-  gap: 12px;
   margin: 24px 0 0;
-}
-
-.contact-row span {
-  color: var(--border);
+  color: var(--muted);
 }
 
 .section {
