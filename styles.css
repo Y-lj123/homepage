@@ -136,9 +136,10 @@ h3 {
   line-height: 1.4;
 }
 
-.research-interest {
-  margin: 0;
+.intro-research {
+  margin: 24px 0 0;
   font-size: 1rem;
+  scroll-margin-top: 75px;
 }
 
 .publication-list {
