@@ -157,60 +157,9 @@ h3 {
   line-height: 1.4;
 }
 
-.inline-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
+.research-interest {
   margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.inline-list li {
-  padding: 5px 11px;
-  background: var(--soft);
-  border: 1px solid #eceff1;
-  border-radius: 3px;
-  font-size: 0.92rem;
-}
-
-.entry + .entry {
-  margin-top: 34px;
-  padding-top: 30px;
-  border-top: 1px solid #eceff1;
-}
-
-.entry-heading {
-  display: flex;
-  justify-content: space-between;
-  gap: 28px;
-}
-
-.entry-subtitle,
-.entry-date,
-.venue {
-  color: var(--muted);
-}
-
-.entry-subtitle,
-.entry-date,
-.venue,
-.small {
-  font-size: 0.92rem;
-}
-
-.entry-date {
-  flex: 0 0 auto;
-  white-space: nowrap;
-}
-
-.venue {
-  margin-bottom: 12px;
-  font-style: italic;
-}
-
-.entry p:last-child {
-  margin-bottom: 0;
+  font-size: 1rem;
 }
 
 .publication-list {
@@ -237,28 +186,6 @@ h3 {
 
 .publication-venue {
   font-style: italic;
-}
-
-.dated-list {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.dated-list li {
-  display: flex;
-  justify-content: space-between;
-  gap: 24px;
-  padding: 7px 0;
-}
-
-.dated-list li span:last-child {
-  flex: 0 0 auto;
-  color: var(--muted);
-}
-
-.skill-grid p {
-  margin-bottom: 8px;
 }
 
 .footer {
@@ -310,16 +237,6 @@ h3 {
     padding: 38px 0;
   }
 
-  .entry-heading,
-  .dated-list li {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 3px;
-  }
-
-  .entry-date {
-    white-space: normal;
-  }
 }
 
 @media print {
