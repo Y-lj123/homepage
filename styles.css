@@ -90,7 +90,7 @@ a:hover {
 
 .page-shell {
   display: grid;
-  grid-template-columns: 250px minmax(0, 1fr);
+  grid-template-columns: 220px minmax(0, 1fr);
   gap: 58px;
   padding: 58px 0 72px;
 }
@@ -123,7 +123,7 @@ a:hover {
 }
 
 .sidebar-info p {
-  margin-bottom: 18px;
+  margin-bottom: 8px;
 }
 
 .sidebar-info strong {
@@ -152,14 +152,14 @@ h1 {
 }
 
 .section {
-  padding: 24px 0;
+  padding: 28px 0;
   scroll-margin-top: 92px;
 }
 
 h2 {
   margin-bottom: 14px;
   color: var(--link);
-  font-size: 1.48rem;
+  font-size: 1.68rem;
   font-weight: 700;
   line-height: 1.25;
 }
@@ -240,7 +240,7 @@ h3 {
 
   .sidebar {
     display: grid;
-    grid-template-columns: minmax(140px, 190px) minmax(0, 1fr);
+    grid-template-columns: minmax(120px, 165px) minmax(0, 1fr);
     gap: 22px;
     position: static;
   }
