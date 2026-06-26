@@ -90,8 +90,8 @@ a:hover {
 
 .page-shell {
   display: grid;
-  grid-template-columns: 220px minmax(0, 1fr);
-  gap: 58px;
+  grid-template-columns: 185px minmax(0, 1fr);
+  gap: 52px;
   padding: 58px 0 72px;
 }
 
@@ -240,7 +240,7 @@ h3 {
 
   .sidebar {
     display: grid;
-    grid-template-columns: minmax(120px, 165px) minmax(0, 1fr);
+    grid-template-columns: minmax(105px, 140px) minmax(0, 1fr);
     gap: 22px;
     position: static;
   }
